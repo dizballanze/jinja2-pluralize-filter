@@ -8,6 +8,14 @@ You need to register filter on the template environment:
     from pluralize import pluralize
     environment.filters['pluralize'] = pluralize
 
+or in Flask:
+    
+    from flask import current_app
+    from pluralize import pluralize
+
+    app.template_filter('pluralize')(pluralize)
+    
+
 Example of usage:
 
-    {{ 42|pluralize([u'товар', u'товара', u'товаров']) }}
+    {{ results_count|pluralize(['товар', 'товара', 'товаров']) }}
