@@ -10,7 +10,7 @@ setup(
     url='https://github.com/dizballanze/jinja2-pluralize-filter',
     license='LICENSE',
     description='Simple jinja2 filter to choose correct plural form for Russian language.',
-    long_description=open('README.rest').read(),
+    long_description=open('README.rst').read(),
     install_requires=[
         "pytils == 0.2.3",
     ],
