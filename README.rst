@@ -3,6 +3,10 @@ jinja2-pluralize-filter
 
 Simple jinja2 filter to choose correct plural form for Russian language.
 
+Installation
+
+    pip install jinja2-pluralize-filter
+
 You need to register filter on the template environment:
 
     from pluralize import pluralize
