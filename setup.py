@@ -17,7 +17,7 @@ setup(
     long_description=read('README.rst'),
     install_requires=[
         "pytils == 0.2.3",
-        "Jinja2 == 2.7",
+        "Jinja2 == 2.11.3",
     ],
     data_files=[('', ['LICENSE', 'README.rst'])]
 )
